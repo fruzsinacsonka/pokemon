@@ -33,18 +33,15 @@ function Login() {
   };
 
   return (
-    <div className="login">
-      <div className="card">
-        <div className="left">
-          <h1>Hello World.</h1>
-
+    <div>
+      <div>
+        <div>
           <span>Don't you have an account?</span>
           <Link to="/register">
             <button>Register</button>
           </Link>
         </div>
-        <div className="right">
-          <h1>Login</h1>
+        <div>
           <form>
             <input
               type="text"
